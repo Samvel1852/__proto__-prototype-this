@@ -77,7 +77,7 @@ console.log(
   Object.prototype.__proto__ === null // Object.prototype extends from null
 );
 
-//********************************
+//********************************// bmw doesn't inherit from anything
 console.log(bmw === Object.prototype, bmw, Object.prototype); // cannot understand why false
 //*********************************
 
@@ -93,7 +93,7 @@ console.log(
 );
 
 console.log(
-  emptyWithoutProto.__proto__ === null, // cannot understand why false
+  emptyWithoutProto.__proto__ === null, // cannot understand why false, // this doesn't inherit from anything
   Object.prototype.__proto__ === null // cannot understand why false
 );
 
