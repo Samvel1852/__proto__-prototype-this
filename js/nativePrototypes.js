@@ -108,3 +108,6 @@ console.log(
   Boolean.prototype.__proto__ === Object.prototype, // Boolean.prototype extends from Object.prototype
   Object.prototype.__proto__ === null // Object.prototype extends from null
 );
+
+// when we use Object.create(null), it crates object which doesn't inherit from anything, it is
+// not equal to {} empty object
