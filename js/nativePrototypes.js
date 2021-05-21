@@ -111,3 +111,5 @@ console.log(
 
 // when we use Object.create(null), it crates object which doesn't inherit from anything, it is
 // not equal to {} empty object
+
+console.log(bmw, Object.prototype);
