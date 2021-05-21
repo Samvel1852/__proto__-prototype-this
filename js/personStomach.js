@@ -32,6 +32,16 @@ class Person {
   }
 }
 
+class Baby extends Person {
+  constructor(name, age, toy) {
+    super(name, age);
+    this.favoriteToy = toy;
+  }
+  play() {
+    return `Playing with ${this.favoriteToy}`;
+  }
+}
+
 let armen = new Person("Armen", 25);
 
 console.log(armen.eat("meat"));
@@ -39,3 +49,6 @@ console.log(armen.eat("sugar"));
 console.log(armen.eat(4));
 console.log(armen.poop());
 console.log(armen.toString());
+
+let suren = new Baby("Suren", 4, "car");
+console.log(suren);
